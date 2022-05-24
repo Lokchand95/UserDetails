@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table Example</title>
+	<link rel="stylesheet" href="userDetails.css" type="text/css">
+	 <script type="text/javascript" src="userDetails.js"></script>	
+</head>
+
+<body>
+	<div>
+    <h1 class="heading-style"> User List</h1>
+	</div>
+    <div id="data-table">
+        <table id="html-data-table">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Phone_no</th>
+                <th>Email</th>
+				<th>Date of Birth</th>
+				<th>Options</th>
+            </tr>
+        </table>   
+		<a href="javascript:prevPage()" class="pagination" id="btn_prev">Prev</a>
+		<a href="javascript:nextPage()" class="pagination" id="btn_next">Next</a>
+		page: <span id="page"></span>
+    </div>
+
+</body>
+</html>

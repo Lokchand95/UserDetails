@@ -1,0 +1,91 @@
+<style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #000000;
+            text-align: left;
+            padding: 8px;
+        }
+		
+		a {
+		background-color: #4CAF50; /* Green */
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+		.delete {
+		background-color: white; 
+		color: black; 
+		border: 2px solid #f44336;
+	}
+	
+		.edit {
+		background-color: white; 
+		color: black; 
+		border: 2px solid #008CBA;
+	}
+	
+		.save {
+		background-color: white; 
+		color: black; 
+		border: 2px solid #4CAF50;
+	}
+	
+	.pagination {
+		background-color: white; 
+		color: black; 
+		border: 2px solid #555555;
+		padding: 10px;
+	}
+		
+	#html-data-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#html-data-table td, #html-data-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#html-data-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#html-data-table tr:hover {background-color: #ddd;}
+
+#html-data-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #5f706a;
+  color: white;
+}
+
+input[type=text]{
+	width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+	}
+	
+	.heading-style{
+	background-color: #605757;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: cornsilk;
+    margin: 2px;
+	}
+		
+    </style>
